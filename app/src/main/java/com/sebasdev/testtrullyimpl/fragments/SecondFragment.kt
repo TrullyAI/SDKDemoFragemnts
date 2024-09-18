@@ -73,7 +73,7 @@ class SecondFragment : Fragment(), TrullyListeners {
             showIdView = true
         )
 
-        TrullySdk.init("Vz7cExzjz0aXKcPrC78OhauUqr1t6oId3E2furct", config)
+        TrullySdk.init("put your key here", config)
     }
 
     override fun onResult(response: TrullyResponse) {

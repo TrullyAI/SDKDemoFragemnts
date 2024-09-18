@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity(), TrullyListeners {
             showIdView = true
         )
 
-        TrullySdk.init("9zODjQTn8G5QiyKy1swg3aehp3x96zgQ7MNbQq3z", config)
+        TrullySdk.init("put your key here", config)
     }
 
     override fun onResult(response: TrullyResponse) {
